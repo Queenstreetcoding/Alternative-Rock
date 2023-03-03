@@ -1,5 +1,11 @@
+:root {
+    --background-color: #191b1f; 
+    --accent-color: #1c2f3a;
+}
+
 body {
     font-family: Poppins, sans-serif;
+    background-color: var(--background-color);
 }
 
 .container {
