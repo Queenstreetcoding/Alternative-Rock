@@ -57,6 +57,12 @@ section.bands-section{
     display: block;
 }
 
+.img-responsive-pw{
+    max-width: 100%;
+    display: block;
+    filter:  grayscale(100%);
+}
+
 .button{
     display: block;
     padding: 16px;
