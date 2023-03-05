@@ -20,7 +20,6 @@ section{
 }
 
 section.bands-section{
-    max-width: 100%;
     background: #e9e8e8;
 }
 
@@ -43,6 +42,10 @@ section.bands-section{
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card-header.grid{
+    grid-gap: 0;
+}
+
 .card{
     margin: 30px 0;
     background: white;
@@ -52,14 +55,19 @@ section.bands-section{
     padding: 30px;
 }
 
+.embed{
+    width: 100%;
+    max-height: 80px;           
+}
+
 .img-responsive{
-    max-width: 100%;
-    display: block;
+    margin-bottom:10px;
+    width: 100%;
 }
 
 .img-responsive-pw{
+    margin-bottom: 10px;
     max-width: 100%;
-    display: block;
     filter:  grayscale(100%);
 }
 
@@ -160,7 +168,7 @@ header h2{
 }
 
 header h3{
-    margin: 0;
+    margin-top: 50px;
     font-weight: 900;
     font-size: 24px;
     line-height: 1.5;
@@ -257,5 +265,13 @@ footer a{
     .img-responsive{
         max-width: 100%;
         display: block;
+    }
+    
+    .card img{
+    max-width: 100%;
+    }
+
+    .embed{
+        aspect-ratio: 16/9;
     }
 }
