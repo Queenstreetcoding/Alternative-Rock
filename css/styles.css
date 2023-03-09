@@ -254,6 +254,7 @@ footer a{
 }
 
 .coded-by p{
+    margin-bottom: 0;
     color: #e9e8e8;
     font-size: 12px;
 }
